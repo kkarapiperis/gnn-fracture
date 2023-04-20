@@ -3,9 +3,8 @@ Prediction and control of fracture paths in disordered architected materials usi
 
 ## Pipeline
 - To generate the Voronoi networks and their corresponding finite element meshes, run **generation/generateVoronoiLattices.py**. Adding the flag **--plot=1** plots each Voronoi network as it is generated. Their mechanical response under mode-I loading is then evaluated using the open-source finite element code [ae108](https://www.ae108.ethz.ch). The training dataset can be found [here](https://www.research-collection.ethz.ch/handle/...).
-- To train the model, run **learning/train_gru.py**
-- To optimize the fracture length, run **optimization/optimize.py**. This generates optimal Voronoi networks and stores them.
-
+- To train the model, run **learning/train_gru.py**, and to evaluate the model on the dataset run **learning/evaluate_gru.py**.
+- To optimize the fracture length, run **optimization/optimize.py**. This computes and stores the parameters generating optimal Voronoi networks. 
 
 ## Requirements
 
