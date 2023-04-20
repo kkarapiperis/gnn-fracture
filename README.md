@@ -15,6 +15,7 @@ Prediction and control of fracture paths in disordered architected materials usi
   - Numpy
   - Scipy
   - NetworkX
-  - Pytorch 
+  - PyTorch 
+  - PyTorch Geometric
   - Matplotlib
 
