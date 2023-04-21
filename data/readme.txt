@@ -1,1 +1,1 @@
-Data files should be downloaded from the ETH Research collection link provided.
+Data files should be downloaded from the DOI provided.
